@@ -1,0 +1,34 @@
+{
+  "name": "vue-ug-base-component",
+  "version": "1.0.0",
+  "description": "Proyecto base para desarrollo de componentes en vue para la UG.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint:fix": "standard --env mocha --fix",
+    "test": "mocha-webpack --webpack-config webpack.config.js test --recursive --require test/.setup.js --watch"
+  },
+  "author": "fj.lopez@ugto.mx",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "avoriaz": "^1.14.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "chai": "^4.0.0",
+    "css-loader": "^0.28.3",
+    "jsdom": "^11.0.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^3.2.0",
+    "mocha-webpack": "next",
+    "standard": "^10.0.2",
+    "vue-loader": "^12.1.1",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "^2.6.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "vue": "^2.1.8"
+  }
+}
